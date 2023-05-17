@@ -1,0 +1,266 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May  3 22:31:22 2023
+# Process ID: 8588
+# Current directory: C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.runs/synth_1
+# Command line: vivado.exe -log automat.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source automat.tcl
+# Log file: C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.runs/synth_1/automat.vds
+# Journal file: C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source automat.tcl -notrace
+Command: synth_design -top automat -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6724
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'automat' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:1]
+	Parameter S0 bound to: 6'b000000 
+	Parameter S1 bound to: 6'b000001 
+	Parameter S2 bound to: 6'b000010 
+	Parameter S3 bound to: 6'b000011 
+	Parameter S4 bound to: 6'b000100 
+	Parameter S5 bound to: 6'b000101 
+	Parameter S6 bound to: 6'b000110 
+	Parameter S7 bound to: 6'b000111 
+	Parameter S8 bound to: 6'b001000 
+	Parameter S9 bound to: 6'b001001 
+	Parameter S10 bound to: 6'b001010 
+	Parameter S11 bound to: 6'b001011 
+	Parameter S12 bound to: 6'b001100 
+	Parameter S13 bound to: 6'b001101 
+	Parameter S14 bound to: 6'b001110 
+	Parameter S15 bound to: 6'b001111 
+	Parameter S16 bound to: 6'b010000 
+	Parameter S17 bound to: 6'b010001 
+	Parameter S18 bound to: 6'b010010 
+	Parameter S19 bound to: 6'b010011 
+	Parameter S20 bound to: 6'b010100 
+	Parameter S1r bound to: 6'b010101 
+	Parameter S2r bound to: 6'b010110 
+	Parameter S3r bound to: 6'b010111 
+	Parameter S4r bound to: 6'b011000 
+	Parameter S5r bound to: 6'b011001 
+	Parameter S6r bound to: 6'b011010 
+	Parameter S7r bound to: 6'b011011 
+	Parameter S8r bound to: 6'b011100 
+	Parameter S9r bound to: 6'b011101 
+	Parameter S10r bound to: 6'b011110 
+	Parameter S11r bound to: 6'b011111 
+	Parameter S12r bound to: 6'b100000 
+	Parameter S13r bound to: 6'b100001 
+	Parameter S14r bound to: 6'b100010 
+	Parameter S15r bound to: 6'b100011 
+	Parameter S16r bound to: 6'b100100 
+	Parameter S17r bound to: 6'b100101 
+	Parameter S18r bound to: 6'b100110 
+	Parameter S19r bound to: 6'b100111 
+	Parameter S20r bound to: 6'b101000 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'automat' (1#1) [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'nout_reg' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:79]
+WARNING: [Synth 8-327] inferring latch for variable 'nrest05_reg' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:80]
+WARNING: [Synth 8-327] inferring latch for variable 'nrest1_reg' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:81]
+WARNING: [Synth 8-327] inferring latch for variable 'nrest5_reg' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:82]
+WARNING: [Synth 8-327] inferring latch for variable 'ns_reg' [C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.srcs/sources_1/new/automat.v:78]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input    6 Bit        Muxes := 7     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 10    
+	   4 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 10    
+	   2 Input    4 Bit        Muxes := 17    
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 6     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 7     
+	   4 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 5     
+	  42 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|automat     | nrest05    | 64x1          | LUT            | 
+|automat     | nrest05    | 64x1          | LUT            | 
+|automat     | nrest1     | 64x1          | LUT            | 
+|automat     | nrest05    | 64x1          | LUT            | 
+|automat     | nrest05    | 64x1          | LUT            | 
+|automat     | nrest1     | 64x1          | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT3  |     3|
+|3     |LUT4  |     3|
+|4     |LUT5  |     5|
+|5     |LUT6  |    25|
+|6     |MUXF7 |     4|
+|7     |FDRE  |    10|
+|8     |LD    |    10|
+|9     |IBUF  |     5|
+|10    |OBUF  |    17|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    83|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1106.297 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1106.297 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1106.297 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10 instances were transformed.
+  LD => LDCE: 10 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 1106.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Amalia/OneDrive/Desktop/CN/automat/automat.runs/synth_1/automat.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file automat_utilization_synth.rpt -pb automat_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May  3 22:31:53 2023...

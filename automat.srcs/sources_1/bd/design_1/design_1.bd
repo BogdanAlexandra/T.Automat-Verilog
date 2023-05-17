@@ -1,0 +1,169 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../automat.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2"
+    },
+    "design_tree": {
+      "automat_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "cs_0": {
+        "direction": "O",
+        "left": "4",
+        "right": "0"
+      },
+      "in_0": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "ns_0": {
+        "direction": "O",
+        "left": "4",
+        "right": "0"
+      },
+      "out_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I"
+      },
+      "rest05_0": {
+        "direction": "O"
+      },
+      "rest1_0": {
+        "direction": "O"
+      },
+      "rest5_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "automat_0": {
+        "vlnv": "xilinx.com:module_ref:automat:1.0",
+        "xci_name": "design_1_automat_0_3",
+        "xci_path": "ip\\design_1_automat_0_3\\design_1_automat_0_3.xci",
+        "inst_hier_path": "automat_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "automat",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "in": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          },
+          "cout": {
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          },
+          "rest05": {
+            "direction": "O"
+          },
+          "rest1": {
+            "direction": "O"
+          },
+          "rest5": {
+            "direction": "O"
+          },
+          "cs": {
+            "direction": "O",
+            "left": "5",
+            "right": "0"
+          },
+          "ns": {
+            "direction": "O",
+            "left": "5",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "automat_0/clk"
+        ]
+      },
+      "automat_0_cs": {
+        "ports": [
+          "automat_0/cs",
+          "cs_0"
+        ]
+      },
+      "in_0_1": {
+        "ports": [
+          "in_0",
+          "automat_0/in"
+        ]
+      },
+      "automat_0_ns": {
+        "ports": [
+          "automat_0/ns",
+          "ns_0"
+        ]
+      },
+      "automat_0_out": {
+        "ports": [
+          "automat_0/cout",
+          "out_0"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "automat_0/reset"
+        ]
+      },
+      "automat_0_rest05": {
+        "ports": [
+          "automat_0/rest05",
+          "rest05_0"
+        ]
+      },
+      "automat_0_rest1": {
+        "ports": [
+          "automat_0/rest1",
+          "rest1_0"
+        ]
+      },
+      "automat_0_rest5": {
+        "ports": [
+          "automat_0/rest5",
+          "rest5_0"
+        ]
+      }
+    }
+  }
+}
